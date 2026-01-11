@@ -3,6 +3,19 @@ below
 line
 number
 five */
-.div {
+.container {
+    height: 140px;
+    padding: 20px;
+    background: powderblue;
+    border: 5px solid indigo;
+
     display: flex;
+}
+
+.item {
+    height: 75px;
+    padding: 10px;
+    background: pink;
+    border: 5px solid indigo;
+
 }
