@@ -4,18 +4,19 @@ line
 number
 five */
 .container {
-    height: 140px;
+    height: 140px;    
     padding: 20px;
     background: powderblue;
     border: 5px solid indigo;
 
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 50px;
 }
 
 .item {
-    height: 75px;
     padding: 10px;
     background: pink;
     border: 5px solid indigo;
-
 }
